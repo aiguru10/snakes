@@ -108,3 +108,11 @@ frontend/*.tsbuildinfo
 
 # Local development
 .local
+
+# Lambda deployment package
+backend/snake-identifier-lambda.zip
+
+# Lambda dependencies (too large for git)
+backend/lambda/__pycache__/
+backend/lambda/*-dist-info/
+backend/lambda/*/
